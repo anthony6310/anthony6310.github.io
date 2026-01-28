@@ -1,0 +1,21 @@
+.footer {
+    font-size: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    padding: 25px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 2500px) {
+    .footer {
+        font-size: 22px;
+    }
+}
